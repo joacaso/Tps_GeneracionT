@@ -1,0 +1,36 @@
+/* Estilo para el Imperio */
+.imperio {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para los Rebeldes */
+.rebeldes {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para Darth Vader */
+#darthvader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para Luke Skywalker */
+#luke {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Droides: centrar imágenes */
+.droides {
+    display: flex;
+    justify-content: center;
+}
+
+/* Unidades de apoyo */
+.apoyo {
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    padding: 60px 0;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#about {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Sección Acerca de mí */
+#about {
+    background-color: #f8f9fa;  /* Fondo claro */
+    padding: 60px 0;
+    color: #333;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #007bff; /* Color principal del tema */
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: justify;
+    color: #555;
+}
+
+#about .highlight {
+    color: #007bff;
+    font-weight: 700;
+}
+
+#about .skills {
+    margin-top: 40px;
+}
+
+#about .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about .skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+#about .skills ul li:hover {
+    background-color: #0056b3; /* Un azul más oscuro al pasar el cursor */
+}
+/* Footer */
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff; /* Cambia a color azul al pasar el cursor */
+}

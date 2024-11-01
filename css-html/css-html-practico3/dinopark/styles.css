@@ -1,0 +1,33 @@
+/* Carnívoros */
+.carnivoros {
+    background-color: darkred;
+    color: white;
+}
+
+/* Herbívoros */
+.herbivoros {
+    background-color: lightgreen;
+}
+
+/* Voladores con sombra */
+.voladores h3 {
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Acuáticos con texto en cursiva y azul */
+.acuaticos {
+    color: blue;
+    font-style: italic;
+}
+
+/* ID para T-Rex */
+#trex {
+    font-size: 24px;
+    color: orange;
+}
+
+/* ID para Triceratops */
+#triceratops {
+    font-weight: bold;
+    text-decoration: underline;
+}

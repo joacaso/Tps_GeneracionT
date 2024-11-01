@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6; /* Mejorando la legibilidad */
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Asegura contraste suficiente */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px; /* Incrementa el padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Acentúa la sombra */
+}
+
+.math-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9fafb; /* Fondo suave para secciones matemáticas */
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-weight: bold; /* Resalta los labels */
+    color: #555;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 120px; /* Ancho uniforme */
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border-color: #28a745; /* Cambio de color en foco */
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #2c3c84;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #2c3c84;
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+p {
+    font-weight: bold;
+    color: #444;
+    margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+/* Estilos generales para centrar los divs */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Clase común para los divs */
+.panchito {
+    width: 400px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+/* Estilos individuales */
+#pan_arriba, #pan_abajo {
+    background-color: #e3b575;
+    position: relative;
+}
+
+/* Sombra simulando separación entre el pan */
+#pan_arriba::after, #pan_abajo::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: #b5905b;
+}
+
+#pan_arriba::after {
+    bottom: -15px;
+    border-radius: 0 0 20px 20px;
+}
+
+#pan_abajo::before {
+    top: -15px;
+    border-radius: 20px 20px 0 0;
+}
+
+#relleno {
+    background-color: #9e2c27;
+    border-radius: 30px;
+    height: 40px;
+}

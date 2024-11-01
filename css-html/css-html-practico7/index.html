@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Otros enlaces como Bootstrap y Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado con nombre y foto -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="mi-foto.jpg" class="rounded-circle mb-4" alt="Foto personal" width="150">
+            <h1>Joaquin Fernandez</h1>
+            <p class="lead">Desarrollador Frontend | Web Designer</p>
+        </div>
+    </header>
+
+    <!-- Sección de Portfolio -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Mi Portfolio</h2>
+        <div class="row mt-4">
+            <!-- Proyecto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.tuposicionamientoweb.net/wp-content/uploads/2020/06/pagina-web-restaurante-la-taska.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sitio web para un restaurante local</h5>
+                        <p class="card-text">Un sitio web responsive con un menú interactivo, galería de fotos y formulario de reservas.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6pUzFREHKqRjmM-1M9jCPSeTUxddZMW1Eg_0lDsmPt_haz3d20LfaIfcsHYnt2YgjJk&usqp=CAU" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog personal con panel de administración</h5>
+                        <p class="card-text">Desarrollé un blog con un sistema para crear, editar y eliminar publicaciones, con diseño minimalista.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://vilmanunez.com/wp-content/uploads/2018/06/tiendas-online.png" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tienda online básica para productos digitales</h5>
+                        <p class="card-text">Una tienda online que simula un flujo de compra de productos digitales con diseño limpio y funcional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección Acerca de mí -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Acerca de mí</h2>
+            <p class="text-center mt-4">
+                Soy un desarrollador web con experiencia en la creación de sitios web funcionales y atractivos. Me especializo en diseño frontend y desarrollo de aplicaciones interactivas. Siempre estoy aprendiendo nuevas tecnologías y mejorando mis habilidades.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+                    <p>Teléfono: +223 687 0030</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Joaquin Fernandez. Todos los derechos reservados.</p>
+        </div>
+        <!-- Footer con iconos de redes sociales -->
+<footer class="bg-dark text-center text-white py-4">
+    <div class="container">
+        <h4>¡Sígueme en las redes!</h4>
+        <a href="https://instagram.com/joacoo_ferr" target="_blank" class="text-white mx-3">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/tu_usuario" target="_blank" class="text-white mx-3">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+    </div>
+</footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
